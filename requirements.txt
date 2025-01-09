@@ -1,0 +1,5 @@
+streamlit>=1.15.0
+crewai
+crewai-tools
+python-dotenv
+googletrans==4.0.0-rc1

@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from crewai import Agent, Task, Crew, Process
+from crewai import Agent, Task, Crew
 from crewai.llm import LLM
 from crewai_tools import SerperDevTool
 from dotenv import load_dotenv

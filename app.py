@@ -3,7 +3,7 @@ import streamlit as st
 from crewai import Agent, Task, Crew, LLM
 from crewai_tools import SerperDevTool
 from dotenv import load_dotenv
-from googletrans import Translator
+#from googletrans import Translator
 
 # Load environment variables
 load_dotenv()
@@ -12,7 +12,7 @@ load_dotenv()
 st.set_page_config(page_title="AI News Generator", page_icon="📰", layout="wide")
 
 # Translator for multilingual support
-translator = Translator()
+#translator = Translator()
 
 # Title and description
 st.title("🤖 AI News Generator Bot 📰")
@@ -35,8 +35,8 @@ with st.sidebar:
         st.stop()
     
     # Language Selection
-    language = st.selectbox("Choose output language", ["English", "Spanish", "French", "German", "Chinese"])
-    language_mapping = {"English": "en", "Spanish": "es", "French": "fr", "German": "de", "Chinese": "zh-cn"}
+    #language = st.selectbox("Choose output language", ["English", "Spanish", "French", "German", "Chinese"])
+    #language_mapping = {"English": "en", "Spanish": "es", "French": "fr", "German": "de", "Chinese": "zh-cn"}
 
     
     # sidebar controls
